@@ -9,3 +9,14 @@ GET - /api/users/:username/repos This endpoint must return a list with all user 
 # Create tests for your application covering all endpoints.
 
 - Made using jest
+
+# How to run?
+
+- npm install
+- npm run dev
+
+### routes:
+
+- http://localhost:8080/api/users
+- http://localhost:8080/api/users/:username/details
+- http://localhost:8080/api/users/:username/repos
